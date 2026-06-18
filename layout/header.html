@@ -1,0 +1,112 @@
+<!-- header start -->
+<header>
+  <div class="topSec">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+          <div class="header-socials">
+            <div class="socials">
+              <ul>
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a target="_blank" href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+          <div class="header-logo">
+            <a href="index.html"><img src="images/logo.png" alt="img" /></a>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+          <div class="header-btn">
+            <a class="theme1" href="booking.html">
+              <span class="theme1-txt">Get a Free Estimate</span>
+              <span class="theme1-icon"
+                ><img src="images/btn-arrow.png" alt="img"
+              /></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menuSec">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <!-- Left Menu -->
+        <div class="col-xl-5 col-lg-5 col-md-5 d-none d-md-block">
+          <div class="menu-box">
+            <ul class="menu-left">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Menu -->
+        <div class="col-xl-5 col-lg-5 col-md-5 d-none d-md-block">
+          <div class="menu-box">
+            <ul class="menu-right">
+              <li><a href="our-customers.html">Our Customers</a></li>
+              <li><a href="testimonial.html">Testimonials</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Responsive Combined Menu -->
+        <div class="col-12 d-md-none">
+          <ul id="responsive-menu" class="d-md-none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="our-customers.html">Our Customers</a></li>
+            <li><a href="testimonial.html">Testimonials</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header end -->
+
+<script>
+  $(function () {
+    $("#responsive-menu").slicknav({
+      prependTo: ".menuSec",
+      label: "", // hide 'MENU' label, optional
+      closeOnClick: true,
+    });
+  });
+</script>
